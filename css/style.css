@@ -491,7 +491,7 @@ img{
 	position:relative;
 	line-height:24px;
 	color:#ffffff;
-	font-size:14px;
+	font-size:16px;
 	cursor: pointer;
 	font-weight:700;
 	border-radius:4px;
@@ -549,7 +549,7 @@ img{
 	position:relative;
 	line-height:24px;
 	color:#010101;
-	font-size:14px;
+	font-size:16px;
 	cursor: pointer;
 	font-weight:700;
 	background-color:#ffffff;
@@ -1964,7 +1964,7 @@ img{
 	opacity:1;
 	font-weight:600;
 	padding:39px 0px;
-	font-size:16px;
+	font-size:17px;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
