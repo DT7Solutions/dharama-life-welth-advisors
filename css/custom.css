@@ -32,6 +32,7 @@
 .main-slider.style-four .content h1 {
     font-weight: 700;
 }
+
 /* key benefits */
 .services-section-three h2 {
     font-weight: 500;
@@ -53,6 +54,25 @@
 
 .services-block-thirteen .inner-box h5 {
     font-weight: 700;
+}
+/* services  */
+.view-more {
+    position: relative;
+    color: #001658;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: capitalize;
+	border-radius:50px;
+	padding:11px 31px 11px;
+	box-shadow: inset 0 0 10px #008000;
+}
+.view-more:hover {
+    color: #ffffff;
+    box-shadow: inset 0 0 10px #ffffff;
+}
+.services-block-fourteen .inner-box .text {
+    margin-bottom: 20px;
 }
 /* why choose us  */
 .feature-section .feature-tabs .tab-btns .tab-btn {
@@ -81,11 +101,6 @@
 .news-block-two.brown .inner-box .lower-content h5 a {
     font-family: 'Lato', serif !important;
 }
-/* service details  */
-/* .sidebar-page-container .content-side, .sidebar-page-container .sidebar-side {
-    margin-top: -25px;
-} */
-
 /* footer section  */
 .main-footer.style-three {
     background-color:  #001658;

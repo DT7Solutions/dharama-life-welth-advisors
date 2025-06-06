@@ -2435,7 +2435,7 @@ img{
 .main-slider .slide{
 	position:relative;
 	background-repeat:no-repeat;
-	background-position:right top;
+	background-position:center;
 }
 
 .main-slider .slide.style-two{
@@ -2459,7 +2459,7 @@ img{
 .main-slider.style-four .content{
 	max-width:610px;
 	padding:140px 50px 140px;
-	background-color:rgba(0,0,0,0.85);
+	/* background-color:rgba(0,0,0,0.85); */
 }
 
 .main-slider.style-four .content .title{
@@ -2478,7 +2478,7 @@ img{
 }
 
 .main-slider.style-four .content h1{
-	color:#ffffff;
+	color:#001658;
 	font-size:60px;
 	font-weight:700;
 	line-height:1.2em;
@@ -2491,7 +2491,7 @@ img{
 }
 
 .main-slider.style-four .content .text{
-	color:#ffffff;
+	color:#010101;
 }
 
 .main-slider .title{
@@ -8210,6 +8210,7 @@ img{
 	color:#010101;
 	font-size:16px;
 	line-height:1.7em;
+	text-align: justify;
 	-webkit-transition:all 1000ms ease;
 	-ms-transition:all 1000ms ease;
 	-o-transition:all 1000ms ease;
