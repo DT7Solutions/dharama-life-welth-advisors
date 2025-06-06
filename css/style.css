@@ -2213,7 +2213,7 @@ img{
 	font-weight:400;
 	font-size:16px;
 	text-transform:capitalize;
-	color:#7c7b7b;
+	color:#010101;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -11309,8 +11309,8 @@ img{
 .new-posts .prev-post{
 	position:relative;
 	color:#010101;
-	font-size:16px;
-	font-weight:500;
+	font-size:18px;
+	font-weight:700;
 	transition:all 300ms ease;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
@@ -11322,8 +11322,8 @@ img{
 .new-posts .next-post{
 	position:relative;
 	color:#010101;
-	font-size:16px;
-	font-weight:500;
+	font-size:18px;
+	font-weight:700;
 	transition:all 300ms ease;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
