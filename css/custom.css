@@ -1,0 +1,148 @@
+/* header  */
+.header-style-five .header-upper .logo-box {
+    margin-top: -52px;
+}
+.header-top .inner-container {
+    position: relative;
+    margin-left: 285px;
+    padding-left: 22px;
+    background-color: #001658;
+}
+.header-top .inner-container:before {
+    background-color: #001658;
+}
+.main-header .top-left .contact-list li i {
+   margin-right: 8px;
+}
+.main-header .top-left:before {
+    border-top: 60px solid #001658;
+}
+.main-menu .navigation > li > a {
+    text-transform: none ;
+}
+.btn-style-two {
+    margin-top: -10px;
+    background-color: #008000;
+    font-size: 16px;
+}
+.btn-style-two:hover{
+    background-color: #001658;
+}
+/* slider */
+.main-slider.style-four .content h1 {
+    font-weight: 500;
+}
+/* key benefits */
+.services-section-three h2 {
+    font-weight: 500;
+    color: #010101;
+    text-align: center;
+    margin-bottom: 90px;
+    margin-top: -45px;
+}
+.services-block-three .inner-box h6 a {
+    color: #010101;
+}
+.services-block-three .inner-box .text {
+    color: #010101;
+}
+/* about us section  */
+.sec-title-three h2 {
+    font-weight: 500;
+}
+
+.services-block-thirteen .inner-box h5 {
+    font-weight: 700;
+}
+/* why choose us  */
+.feature-section .feature-tabs .tab-btns .tab-btn {
+    font-weight: 600;
+}
+/* faq section  */
+.sec-title h2 {
+    color: #010101;
+}
+.accordion-box .block .acc-btn {
+    color: #010101;
+    font-family: 'Lato', sans-serif;
+}
+.accordion-box .block .content p {
+    color: #010101;
+}
+.sec-title h2 {
+    font-weight: 500;
+}
+/* statistics */
+.fact-counter.style-three .column .counter-title {
+    font-family: 'Lato', sans-serif;
+}
+/* testimonials */
+/* blogs */
+.news-block-two.brown .inner-box .lower-content h5 a {
+    font-family: 'Lato', serif !important;
+}
+/* service details  */
+/* .sidebar-page-container .content-side, .sidebar-page-container .sidebar-side {
+    margin-top: -25px;
+} */
+
+/* footer section  */
+.main-footer.style-three {
+    background-color:  #001658;
+}
+.main-footer {
+    position: relative;
+    padding: 45px 0px 0px;
+    background-color: #001658;
+}
+footer.style-three .list-style-two li .icon {
+    color: #008000 !important ;
+}
+.list-style-two li .icon {
+    font-size: 18px;
+}
+.main-footer.style-three .footer-bottom .copyright-column .copyright a{
+    color: #ffffff;
+    font-weight: 700;
+}
+.last-para{
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 16px;
+}
+.last-para a{
+    color: #ffffff;
+} 
+.copyright-column .copyright {
+    color: #ffffff;
+    margin-top: 18px;
+}
+
+
+
+@media only screen and (max-width: 1140px) {
+    .main-header {
+        margin-top: 50px !important;
+        margin-left: -24px !important;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .header-top {
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .main-menu .navbar-header .navbar-toggler {
+        display: inline-block;
+        z-index: 12;
+        width: 50px;
+        height: 40px;
+        float: none;
+        padding: 0px;
+        text-align: center;
+        border-radius: 0px;
+        background: none;
+        border: 1px solid #444444;
+        margin-right: -30px;
+    }
+}
