@@ -7915,7 +7915,10 @@ img{
 
 .about-section-four .skills-column .inner-column .text{
 	position:relative;
-	margin-top:55px;
+	margin-top:20px;
+	color: #010101;
+	font-size: 16px;
+	line-height: 1.7em;
 }
 
 .about-section-four .skills-column .inner-column .text p{
@@ -8282,6 +8285,7 @@ img{
 	font-size:16px;
 	max-width:600px;
 	line-height:1.7em;
+	margin-right: 75px;
 }
 
 .feature-section .feature-tabs{
@@ -8339,7 +8343,7 @@ img{
 	line-height:1.8em;
 	margin-top:8px;
 	transition:all 500ms ease;
-	text-transform:capitalize;
+	/* text-transform:capitalize; */
 	font-family: 'Lato', sans-serif;
 }
 
