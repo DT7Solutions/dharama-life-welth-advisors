@@ -40,7 +40,7 @@
                         <ul class="contact-list clearfix">
                             <li><i class="fa fa-envelope-o"></i> dharma.myneni@gmail.com</li>
                             <li><i class="fa fa-phone"></i><a href="#">+1 302 465 5446</a></li>
-							<li><i class="fa fa-map-marker"></i><a href="#">121 King Street, USA, Newyork</a></li>
+							<li><i class="fa fa-map-marker"></i><a href="#"> 11065 Callaway Dr, Johns Creek, GA 30097</a></li>
                         </ul>
                     </div>
                     <div class="top-right">
@@ -166,8 +166,8 @@
 											<li><a href="tax-optimization.html">Tax Optimization</a></li>
 									</ul>
 								</li>
-								<li class=""><a href="portfolio.html">Portfolio</a>
-								</li>
+								<!-- <li class=""><a href="portfolio.html">Portfolio</a>
+								</li> -->
 								<li class=""><a href="blogs.html">Blogs</a>
 								</li>
 								<li><a href="contact.html">Contact us</a></li>
@@ -211,7 +211,7 @@
 								Contact us today to schedule your free consultation and begin planning for a brighter, more secure future. Together, we'll create a strategy that gives you financial peace of mind.
 							</div>
 							<ul class="list-style-five">
-								<li><span class="icon fa fa-building"></span> 131 Dartmouth Street <br> Boston, Massachusetts 02116 <br> United States</li>
+								<li><span class="icon fa fa-building"></span>  11065 Callaway Dr, Johns Creek, GA 30097</li>
 								<li><span class="icon fa fa-fax"></span>+1 (302) 465-5446 </li>
 								<li><span class="icon fa fa-envelope-o"></span>dharma.myneni@gmail.com</li>
 							</ul>
@@ -227,15 +227,15 @@
 								<form method="post" action="" id="contact-form1">
 									
 									<div class="form-group">
-										<input type="text" name="firstname" value="firstname" placeholder="Full name" required>
+										<input type="text" name="firstname"  placeholder="Full name" required>
 									</div>
 									
 									<div class="form-group">
-										<input type="text" name="email" value="email" placeholder="Email" required>
+										<input type="text" name="email" placeholder="Email" required>
 									</div>
 									
 									<div class="form-group">
-										<select class="custom-select-box">
+										<select name="service" class="custom-select-box">
 											<option>Select Service</option>
 											<option value="wealth-management">Wealth Management</option>
 											<option value="life-insurance">Life Insurance</option>
@@ -297,7 +297,7 @@
 										<li><a href="">Home</a></li>
 										<li><a href="">About us</a></li>
 										<li><a href="">Services</a></li>
-										<li><a href="">Portfolio</a></li>
+										<!-- <li><a href="">Portfolio</a></li> -->
 										<li><a href="">Blogs</a></li>
 										<li><a href="">Contact us</a></li>
 									</ul>
@@ -334,7 +334,7 @@
 									<ul class="list-style-two">
 										<li><span class="icon fa fa-phone"></span> +1 302 465 5446</li>
 										<li><span class="icon fa fa-envelope"></span>dharma.myneni@gmail.com</li>
-										<li><span class="icon fa fa-home"></span>380 St Kilda Road, Melbourne <br> VIC 3004, Australia</li>
+										<li><span class="icon fa fa-home"></span> 11065 Callaway Dr, Johns Creek, GA 30097</li>
 									</ul>
 									</div>
 								</div>
@@ -386,9 +386,26 @@
 <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script type="text/javascript">
   (function() {
-    emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your actual public key
+    emailjs.init("aavbDg48IKeHmYjKA"); // Replace with your actual public key
   })();
 </script>
+<script>
+  window.onload = function () {
+    document.getElementById('contact-form1').addEventListener('submit', function (e) {
+      e.preventDefault(); // prevent default form submission
+
+      emailjs.sendForm('service_wdgf41s', 'template_66pi61q', this)
+        .then(function () {
+          alert('Your message has been sent successfully!');
+		   document.getElementById('contact-form1').reset();
+        }, function (error) {
+          alert('Failed to send the message. Please try again.');
+          console.log('EmailJS error:', error);
+        });
+    });
+  };
+</script>
+
 
 </body>
 </html>
