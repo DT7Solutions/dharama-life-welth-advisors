@@ -85,8 +85,8 @@ font-family: 'Muli', sans-serif;*/
 
 body {
 	font-family: "Lato", sans-serif;
-	font-size:14px;
-	color:#777777;
+	font-size:16px;
+	color:#010101;
 	line-height:1.7em;
 	font-weight:400;
 	background:#ffffff;
@@ -6085,10 +6085,14 @@ img{
 	border-bottom:5px solid transparent;
 }
 
-.news-block-two.brown .inner-box .lower-content .post-meta li,
-.news-block-two.brown .inner-box .lower-content .post-meta li .fa{
-	color:#9c9c9c;
+.news-block-two.brown .inner-box .lower-content .post-meta li{
+	color: #010101;
 }
+
+.news-block-two.brown .inner-box .lower-content .post-meta li .fa{
+	color: #008000;
+}
+
 
 .news-block-two.brown .inner-box:hover .lower-content{
 	border-color:#001658;

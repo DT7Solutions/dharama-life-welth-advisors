@@ -99,8 +99,14 @@
 }
 /* blogs */
 .news-block-two.brown .inner-box .lower-content h5 a {
-    font-family: 'Lato', serif !important;
+    font-family: 'Lato', sans-serif !important;
 }
+/* .lower-content h5 a {
+    text-align: justify;
+} */
+ .text-blogs{
+    margin-top: 15px;
+ }
 /* footer section  */
 .main-footer.style-three {
     background-color:  #001658;
