@@ -11139,13 +11139,13 @@ img{
 	position:absolute;
 	left:0px;
 	top:0px;
-	color:#303ef9;
+	color:#001658;
 	font-size:14px;
 }
 
 .blog-single .inner-box .lower-content h4{
 	position:relative;
-	color:#001658;
+	color:#010101;
 	font-weight:600;
 	line-height:1.4em;
 	margin-bottom:13px;
@@ -11246,7 +11246,7 @@ img{
 
 .blog-single .post-share-options .post-tags span{
 	position:relative;
-	font-size:15px;
+	font-size:18px;
 	font-weight:500;
 	color:#1a1e66;
 	font-family: 'Lato', sans-serif;
@@ -11255,12 +11255,12 @@ img{
 .blog-single .post-share-options .post-tags a{
 	position:relative;
 	padding:8px 20px;
-	color:#1a1e66;
+	color:#ffffff;
 	margin-right:4px;
 	margin-bottom:4px;
 	border-radius:50px;
 	display:inline-block;
-	background-color:#f4f7fc;
+	background-color:#008000;
 	transition:all 300ms ease;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
@@ -11270,12 +11270,12 @@ img{
 
 .blog-single .post-share-options .post-tags a:hover{
 	color:#ffffff;
-	background: -ms-linear-gradient(top, #3140FC 0%, #0b1599 100%);
-    background: -moz-linear-gradient(top, #3140FC 0%, #0b1599 100%);
-    background: -o-linear-gradient(top, #3140FC 0%, #0b1599 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3140FC), color-stop(100, #0b1599));
-    background: -webkit-linear-gradient(top, #3140FC 0%, #0b1599 100%);
-    background: linear-gradient(to bottom, #3140FC 0%, #0b1599 100%);
+	background: -ms-linear-gradient(top, #001658 0%, #001658 100%);
+    background: -moz-linear-gradient(top,#001658 0%, #001658 100%);
+    background: -o-linear-gradient(top, #001658 0%, #001658 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #001658), color-stop(100, #001658));
+    background: -webkit-linear-gradient(top, #001658 0%, #0016589 100%);
+    background: linear-gradient(to bottom, #001658 0%, #001658 100%);
 }
 
 .blog-single .post-share-options .social-links{
