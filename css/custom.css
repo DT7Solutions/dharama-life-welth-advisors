@@ -101,12 +101,18 @@
 .news-block-two.brown .inner-box .lower-content h5 a {
     font-family: 'Lato', sans-serif !important;
 }
-/* .lower-content h5 a {
-    text-align: justify;
-} */
  .text-blogs{
     margin-top: 15px;
  }
+/* blog details  */
+.text-goal ul li,
+.text-power ul li,
+.text-finanacial ul li {
+  list-style-type: disc !important;
+  margin-top: 0 !important;    
+  margin-left: 30px;             
+}
+
 /* footer section  */
 .main-footer.style-three {
     background-color:  #001658;
