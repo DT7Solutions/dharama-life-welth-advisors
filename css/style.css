@@ -138,7 +138,7 @@ h4{
 }
 
 h5{
-	font-size:20px;
+	font-size:19px;
 }
 
 h6{
@@ -845,7 +845,7 @@ img{
 	color:#008000;
 	letter-spacing:1px;
 	margin-bottom:12px;
-	font-weight:400;
+	font-weight:700;
 	text-transform:uppercase;
 }
 
@@ -1394,7 +1394,7 @@ img{
 	color:#ffffff;
 	font-size:16px;
 	margin-top:42px;
-	margin-left:40px;
+	margin-left:23px;
 	cursor:pointer;
 }
 
@@ -1801,8 +1801,9 @@ img{
 }
 
 .sticky-header .main-menu .navigation > li > a{
-	padding:19px 0px  !important;
+	padding:23px 0px  !important;
 	color:#ffffff !important;
+	margin-top: 4px;
 }
 
 .sticky-header .main-menu .navigation > li > a:after{
@@ -1900,7 +1901,7 @@ img{
 .main-menu .navigation > li{
 	position:relative;
 	float:left;
-	margin-right:30px;
+	margin-right:20px;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -2435,7 +2436,8 @@ img{
 .main-slider .slide{
 	position:relative;
 	background-repeat:no-repeat;
-	background-position:center;
+	background-position: right center ;
+	background-size: cover;
 }
 
 .main-slider .slide.style-two{
@@ -3758,10 +3760,10 @@ img{
 	-webkit-transition:all 0.3s ease;
 	-ms-transition:all 0.3s ease;
 	-o-transition:all 0.3s ease;
-	/* background:-webkit-linear-gradient(top,rgba(0,0,0,0),rgba(10,20,150,0.9));
-	background:-moz-linear-gradient(top,rgba(0,0,0,0),rgba(10,20,150,0.9));
-	background:-o-linear-gradient(top,rgba(0,0,0,0),rgba(10,20,150,0.9));
-	background:-ms-linear-gradient(top,rgba(0,0,0,0),rgba(10,20,150,0.9)); */
+	background:-webkit-linear-gradient(top,rgba(0,0,0,0),#001658);
+	background:-moz-linear-gradient(top,rgba(0,0,0,0),#001658);
+	background:-o-linear-gradient(top,rgba(0,0,0,0),#001658);
+	background:-ms-linear-gradient(top,rgba(0,0,0,0),#001658);
 }
 
 .services-block-two .inner-box .overlay-box-two{
@@ -3803,12 +3805,12 @@ img{
     -ms-transform: rotateZ(-180deg);
     -o-transform: rotateZ(-180deg);
 	transform: rotateZ(-180deg);
-	/* background-image: -ms-linear-gradient(top, #3240FE 0%, #0a1598 100%);
-	background-image: -moz-linear-gradient(top, #3240FE 0%, #0a1598 100%);
-	background-image: -o-linear-gradient(top, #3240FE 0%, #0a1598 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3240FE), color-stop(100, #0a1598));
-	background-image: -webkit-linear-gradient(top, #3240FE 0%, #0a1598 100%);
-	background-image: linear-gradient(to bottom, #3240FE 0%, #0a1598 100%); */
+	background-image: -ms-linear-gradient(top, #008000 0%, #008000 100%);
+	background-image: -moz-linear-gradient(top, #008000 0%, #008000 100%);
+	background-image: -o-linear-gradient(top, #008000 0%, #008000 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #008000), color-stop(100, #008000));
+	background-image: -webkit-linear-gradient(top, #008000 0%, #008000 100%);
+	background-image: linear-gradient(to bottom, #008000 0%, #008000 100%);
 }
 
 .services-block-two .inner-box:hover .overlay-box-two:before{
@@ -6055,7 +6057,7 @@ img{
 	font-weight:500;
 	line-height:1.5em;
 	margin-top:8px;
-	margin-bottom:24px;
+	margin-bottom:10px;
 }
 
 .news-block-two .inner-box .lower-content h5 a{
@@ -8313,14 +8315,14 @@ img{
 .feature-section .feature-tabs .tab-btns .tab-btn{
 	position:relative;
 	display:block;
-	font-size:24px;
+	font-size:25px;
 	color:#010101;
 	font-weight:600;
 	cursor:pointer;
 	line-height:1.6em;
 	margin-bottom:20px;
 	border:1px solid #d9d9d9;
-	padding:29px 30px 29px 40px;
+	padding:14px;
 	transition:all 500ms ease;
 	text-transform:capitalize;
 	font-family: 'Lato', sans-serif;

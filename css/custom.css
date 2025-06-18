@@ -11,6 +11,7 @@
 .header-top .inner-container:before {
     background-color: #001658;
 }
+
 .main-header .top-left .contact-list li i {
    margin-right: 8px;
 }
@@ -32,6 +33,24 @@
 .main-slider.style-four .content h1 {
     font-weight: 700;
 }
+.main-slider.style-four .content .color-change {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2em;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+}
+.main-slider.style-four .content .text-guide {
+    color: #ffffff;
+    margin-bottom: 23px;
+}
+.main-slider.style-four .content .title-change {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
 
 /* key benefits */
 .services-section-three h2 {
@@ -112,7 +131,18 @@
   margin-top: 0 !important;    
   margin-left: 30px;             
 }
-
+/* business opportunity  */
+.sec-title .text-start {
+    position: relative;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.8em;
+    color: #001658;
+    margin-top: 25px;
+}
+.services-block-two .inner-box .overlay-box .overlay-inner h5 a {
+    font-size: 20px;
+}
 /* footer section  */
 .main-footer.style-three {
     background-color:  #001658;
@@ -159,6 +189,9 @@ footer.style-three .list-style-two li .icon {
     padding: 2.5% 0%;
     border-radius: 12px;
 }
+.map-outer{
+    padding: 0px 45px;
+}
 
 @media only screen and (max-width: 1140px) {
     .main-header {
@@ -184,5 +217,8 @@ footer.style-three .list-style-two li .icon {
         background: none;
         border: 1px solid #444444;
         margin-right: -30px;
+    }
+    .main-slider.style-four .content .color-change {
+        font-size: 38px;
     }
 }
