@@ -154,6 +154,12 @@ footer.style-three .list-style-two li .icon {
 .main-footer.style-three .list-style-two li a {
     color: #ffffff;
 }
+.logo img {
+    background-color: #fff;
+    padding: 2.5% 0%;
+    border-radius: 12px;
+}
+
 @media only screen and (max-width: 1140px) {
     .main-header {
         margin-top: 50px !important;
