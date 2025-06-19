@@ -2766,7 +2766,7 @@ img{
 	margin-top:-40px;
 }
 
-.main-slider .owl-nav .owl-prev{
+/* .main-slider .owl-nav .owl-prev{
 	position:absolute;
 	width: 50px;
 	height: 50px;
@@ -2825,7 +2825,7 @@ img{
 	color:#ffffff;
 	border-radius:50%;
 	background-color:rgba(0,0,0,0.60);
-}
+} */
 
 /*** 
 
@@ -3681,7 +3681,7 @@ img{
 
 .services-section-two{
 	position:relative;
-	padding:95px 0px 50px;
+	padding:75px 0px 50px;
 }
 
 .services-block-two{
@@ -7873,7 +7873,7 @@ img{
 
 .about-section-four{
 	position:relative;
-	padding:95px 0px 90px;
+	padding:95px 0px 15px;
 }
 
 .about-section-four .sec-title-three .text{
