@@ -218,31 +218,46 @@ footer.style-three .list-style-two li .icon {
   transition: color 0.3s ease;
 }
 
-@media only screen and (max-width: 1140px) {
-    .main-header {
-        margin-top: 50px !important;
-        margin-left: -24px !important;
-    }
+#return-to-top i {
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+#return-to-top
+Specificity: (1,0,0)
+ {
+    bottom: 7.5%;
+    right: 2.5%;
+}
 
-    .services-flex ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        flex: 1;
+#return-to-top {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    display: block;
+    display: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    background: #008000;
+    transition: all 0.3s ease;
+    z-index: 999;
+    color: #fff;
+    animation: jump 1s ease-in alternate infinite;
+}
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
     }
 }
-@media only screen and (max-width: 1024px) {
-    .header-top {
-        display: none;
-    }
 
-    .services-flex ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        flex: 1;
-    }
-}
 @media only screen and (max-width: 768px) {
     .main-menu .navbar-header .navbar-toggler {
         display: inline-block;
@@ -260,10 +275,58 @@ footer.style-three .list-style-two li .icon {
     .main-slider.style-four .content .color-change {
         font-size: 38px;
     }
+    .services-flex{
+        flex-direction: column;
+        gap: 0px;
+    }
     .services-flex ul {
         list-style: none;
         padding: 0;
         margin: 0;
         flex: 1;
     }
+    .services-redesign{
+      margin-left: 0px;
 }
+}
+@media only screen and (max-width: 1024px) {
+    .header-top {
+        display: none;
+    }
+
+    .services-flex ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        flex: 1;
+    }
+    .services-redesign {
+      margin-left: 0px;
+    }
+    .services-flex{
+        flex-direction: column;
+        gap: 0px;
+    }
+}
+@media only screen and (max-width: 1140px) {
+    .main-header {
+        margin-top: 50px !important;
+        margin-left: -24px !important;
+    }
+
+    .services-flex ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        flex: 1;
+    }
+    .services-redesign {
+      margin-left: 0px;
+    }
+    .services-flex{
+        flex-direction: column;
+        gap: 0px;
+    }
+}
+
+

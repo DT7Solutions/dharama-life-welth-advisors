@@ -595,3 +595,21 @@
 		sortableMasonry();
 	});	
 })(window.jQuery);
+
+  // Show or hide button on scroll
+  window.addEventListener("scroll", function () {
+    const button = document.getElementById("return-to-top");
+    if (window.scrollY > 300) {
+      button.style.display = "inline";
+    } else {
+      button.style.display = "none";
+    }
+  });
+
+  // Scroll to top on click
+  document.getElementById("return-to-top").addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
