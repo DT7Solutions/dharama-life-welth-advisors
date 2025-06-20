@@ -7172,9 +7172,6 @@ img{
 	text-align:center;
 }
 
-.price-block .inner-box:hover .recomend{
-	
-}
 
 .price-block.style-two .inner-box .recomend{
 	background-image: -ms-linear-gradient(top, #9fe513 0%, #60b807 100%);
@@ -8830,8 +8827,7 @@ img{
 	line-height:24px;
 }
 
-.ui-menu-item:hover{
-}
+
 
 /* Map Section */
 
