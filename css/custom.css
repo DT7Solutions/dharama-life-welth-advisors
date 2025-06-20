@@ -308,9 +308,13 @@ Specificity: (1,0,0)
         background: none;
     }
     .main-slider.style-four .content {
-    margin-left: 1px;
+        margin-left: 1px;
+    }
+    .main-menu .navbar-collapse > .navigation {
+        margin-left: 46px !important;
     }
 }
+
 @media only screen and (max-width: 1024px) {
     .header-top {
         display: none;
