@@ -232,6 +232,18 @@ footer.style-three .list-style-two li .icon {
   text-decoration: none;
   transition: color 0.3s ease;
 }
+.services-more{
+    margin-top: -70px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.services-more a {
+  color: #001658 !important; 
+}
+
+.services-more a:hover {
+  color: #008000 !important;
+}
 
 #return-to-top i {
     color: #fff;
