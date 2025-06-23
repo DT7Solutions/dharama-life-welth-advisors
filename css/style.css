@@ -9675,7 +9675,7 @@ img{
 
 .portfolio-single-section .content-column .inner-column{
 	position:relative;
-	padding-top:50px;
+	padding-top:10px;
 	padding-left:50px;
 }
 
@@ -9684,7 +9684,7 @@ img{
 	color: #010101;
 	line-height:1.3em;
 	font-weight:700;
-	margin-bottom:20px;
+	margin-bottom:10px;
 }
 
 .portfolio-single-section .content-column .inner-column .text{
@@ -9725,7 +9725,7 @@ img{
 	position:absolute;
 	left:0px;
 	top:0px;
-	color:#303ffa;
+	color:#008000;
 	font-size:14px;
 }
 

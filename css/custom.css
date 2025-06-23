@@ -263,6 +263,160 @@ footer.style-three .list-style-two li .icon {
     color: #fff;
     animation: jump 1s ease-in alternate infinite;
 }
+/* --- Services Section Seven Steps - Final CSS with Specific Blue Arrows --- */
+
+.services-section-seven-steps {
+    position: relative;
+    padding: 100px 0; /* Adjust as needed */
+    background-color: #f8f8f8; /* Overall section background */
+}
+
+.services-section-seven-steps .sec-title {
+    margin-bottom: 50px;
+}
+
+.steps-timeline-outer {
+    max-width: 1200px; /* Content max width */
+    margin: 0 auto;
+    padding: 0 15px; /* Side padding */
+    position: relative;
+}
+
+.steps-timeline-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows steps to wrap to next row */
+    justify-content: center; /* Centers steps if last row is incomplete */
+    gap: 30px; /* Spacing between steps */
+    position: relative;
+}
+
+/* Individual Step Card Styling (the "container" for each circle + text block) */
+.timeline-step {
+    position: relative; /* Essential for positioning the ::after arrow */
+    /* Calc for 4 items per row with 30px gap: (100% / 4) - (30px * 3 / 4) = 25% - 22.5px */
+    flex: 0 0 calc(25% - 22.5px);
+    max-width: calc(25% - 22.5px);
+
+    background-color: transparent; /* No background for the card itself */
+    box-shadow: none; /* No shadow for the card */
+    padding: 0; /* No padding on the outer card */
+    text-align: center;
+    transition: all 0.3s ease; /* Smooth transition for the entire step, including potential lift effect */
+    z-index: 1; /* Ensure elements are visible */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: auto; /* Let content define height */
+    margin-bottom: 40px; /* Spacing between rows of steps */
+}
+
+/* Main Icon Circle (the large colored circle) */
+.step-icon {
+    position: relative;
+    width: 120px; /* Size of the main circle */
+    height: 120px; /* Size of the main circle */
+    background-color: #008000; /* ALL main icon circles are GREEN by default */
+    border-radius: 50%; /* Makes it a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Space between circle and heading text */
+    border: none; /* No border for this circle */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for the circle */
+    z-index: 2; /* Ensures it's above other elements if any */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+/* Hover effect for the main icon circle */
+.step-icon:hover {
+    background-color: #001658; /* Change to DARK BLUE on hover */
+}
+
+/* Icon inside the main circle */
+.step-icon .icon {
+    font-size: 50px; /* Size of the Flaticon icon */
+    color: #ffffff; /* Icon color: WHITE */
+    line-height: 1;
+}
+
+/* Number Circle (1, 2, 3, 4...) */
+.step-number {
+    position: absolute;
+    top: -10px; /* Position relative to the .step-icon */
+    left: 10px; /* Position relative to the .step-icon */
+    transform: none; /* No additional transform needed */
+    background-color: #001658; /* All number circles have the DARK BLUE background */
+    color: #ffffff; /* Number color: WHITE */
+    width: 30px; /* Size of the number circle */
+    height: 30px; /* Size of the number circle */
+    border-radius: 50%; /* Makes it a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    z-index: 4; /* Ensures it's on top of the main icon circle */
+    border: none; /* No border for the number circle */
+}
+
+/* Content (Heading and Text) below the icon circle */
+.timeline-step .step-content {
+    padding: 0 10px; /* Small horizontal padding for text alignment */
+}
+
+.timeline-step .step-content h6 {
+    font-size: 18px; /* Heading size */
+    margin-bottom: 8px; /* Space between heading and description */
+    font-weight: 700; /* Bolder heading */
+    color: #333; /* Dark text color for heading */
+}
+
+.timeline-step .step-content h6 a {
+    color: inherit; /* Inherit color from h6 */
+    text-decoration: none;
+}
+
+.timeline-step .step-content .text {
+    font-size: 16px; /* Description text size */
+    color: #555; /* Slightly darker grey for readability */
+    line-height: 1.5;
+    margin-bottom: 0; /* No margin if no button directly below */
+    flex-grow: 1; /* Allows text to take available space */
+    text-align: center;
+}
+
+/* Hide the 'Book Now' link/button if it's not present in the image for most steps */
+.timeline-step .contact-link {
+    display: none; /* By default, hide this link */
+}
+
+
+/* --- NEW ARROW STYLES (SVG-based double chevron) --- */
+.timeline-step::after {
+    content: ''; /* Essential for pseudo-elements */
+    position: absolute;
+    top: 60px; /* Aligns vertically with the center of the 120px tall .step-icon */
+    right: -20px; /* Adjusts position: will be centered in the 30px gap */
+    width: 20px; /* Size of the arrow */
+    height: 20px; /* Size of the arrow */
+    /* Inline SVG for a clean, scalable double chevron (>>). Color is #001689. */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23001689' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='13 17 18 12 13 7'%3E%3C/polyline%3E%3Cpolyline points='6 17 11 12 6 7'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* Ensures the SVG scales nicely within the width/height */
+    transform: translateY(-50%); /* Only vertical centering needed */
+    z-index: 0; /* Ensures the arrow is behind the content of the next step */
+    pointer-events: none; /* Prevents the arrow from interfering with mouse events on steps */
+    border: none; /* Ensure no old border styles interfere */
+}
+
+/* Hide arrows on the last item of each row and the overall last child */
+/* Default (4 columns layout): Hide arrow after 4th, 8th, etc. steps, and the very last step */
+.steps-timeline-container .timeline-step:nth-child(4n)::after,
+.steps-timeline-container .timeline-step:last-child::after {
+    display: none;
+}
 @keyframes jump {
     0% {
         transform: translateY(0);
@@ -312,7 +466,21 @@ footer.style-three .list-style-two li .icon {
     .main-menu .navbar-collapse > .navigation {
         margin-left: 46px !important;
     }
+    .timeline-step {
+        flex: 0 0 100%; /* 1 column */
+        max-width: 100%;
+        margin-bottom: 30px; /* Adjust vertical spacing when stacked */
+        /* Center content horizontally on mobile when stacked */
+        align-items: center;
+    }
+    .timeline-step .step-content .text {
+        text-align: left; /* Prefer left-align for readability on very narrow mobile screens */
+    }
+    .steps-timeline-container .timeline-step::after {
+        display: none; /* Hide all arrows on mobile (vertical stacking) */
+    }
 }
+
 
 @media only screen and (max-width: 1024px) {
     .header-top {
