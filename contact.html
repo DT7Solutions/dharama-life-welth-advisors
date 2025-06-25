@@ -220,7 +220,7 @@
 							
 							<!--Contact Form-->
 							<div class="contact-form">
-								<form method="post" action="" id="contact-form1">
+								<form method="post" id="contact-form1">
 									
 									<div class="form-group">
 										<input type="text" name="firstname"  placeholder="Full name" required>
@@ -495,27 +495,32 @@
 <script src="js/map-script.js"></script>
 <!--End Google Map APi-->
 <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script type="text/javascript">
-  (function() {
-    emailjs.init("aavbDg48IKeHmYjKA"); // Replace with your actual public key
-  })();
-</script>
-<script>
-  window.onload = function () {
-    document.getElementById('contact-form1').addEventListener('submit', function (e) {
-      e.preventDefault(); // prevent default form submission
+<!-- EmailJS SDK -->
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
-      emailjs.sendForm('service_wdgf41s', 'template_66pi61q', this)
-        .then(function () {
-          alert('Your message has been sent successfully!');
-		   document.getElementById('contact-form1').reset();
-        }, function (error) {
-          alert('Failed to send the message. Please try again.');
-          console.log('EmailJS error:', error);
-        });
-    });
-  };
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Replace this with your actual public key
+    emailjs.init("aavbDg48IKeHmYjKA");
+
+    const form = document.getElementById('contact-form1');
+    if (form) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        emailjs.sendForm('service_v1rpwsg', 'template_66pi61q', this)
+          .then(() => {
+            alert('Your message has been sent successfully!');
+            this.reset();
+          }, (error) => {
+            alert('Failed to send the message. Please try again.');
+            console.error('EmailJS error:', error);
+          });
+      });
+    }
+  });
 </script>
+
 <!-- Calendly badge widget begin -->
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/ashok-myneni', text: 'Schedule time with me', color: '#001658', textColor: '#ffffff', branding: false }); }</script>
