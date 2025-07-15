@@ -5749,7 +5749,7 @@ img{
 	font-weight:700;
     padding: 27px 10px 27px 50px;
 	color:#001658;
-	text-transform:capitalize;
+	/* text-transform:capitalize; */
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -8321,7 +8321,7 @@ img{
 	border:1px solid #d9d9d9;
 	padding:14px;
 	transition:all 500ms ease;
-	text-transform:capitalize;
+	/* text-transform:capitalize; */
 	font-family: 'Lato', sans-serif;
 }
 
