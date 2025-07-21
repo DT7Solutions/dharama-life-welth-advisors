@@ -858,9 +858,9 @@ img{
 }
 
 .sec-title h2 span{
-	color:#3241ff;
+	color:#008000;
 	font-style:italic;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Lato', sans-serif;
 }
 
 .sec-title h2:after{
@@ -6203,7 +6203,7 @@ img{
 	top:0px;
 	width:175px;
 	height:187px;
-	color:#f95f01;
+	color:#008000;
 	font-size:60px;
 	line-height:1em;
 	text-align:center;
@@ -6237,7 +6237,7 @@ img{
 .services-block-six .inner-box .text{
 	position:relative;
 	font-size:16px;
-	color:#1a1e66;
+	color:#000000;
 	line-height:1.7em;
 	max-width:280px;
 }
@@ -6449,9 +6449,9 @@ img{
 
 .services-block-seven .inner-box .text{
 	position:relative;
-	color:#1a1e66;
+	color:#000000;
 	font-size:18px;
-	font-weight:700;
+	/* font-weight:700; */
 	line-height:1.7em;
 }
 
@@ -6506,7 +6506,7 @@ img{
 
 .services-block-eight .inner-box .text{
 	position:relative;
-	color:#1a1e66;
+	color:#000000;
 	font-size:16px;
 	line-height:1.7em;
 }

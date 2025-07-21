@@ -524,6 +524,15 @@ footer.style-three .list-style-two li .icon {
     }
 }
 
+@media only screen and (max-width: 1140px) {
+    .services-block-six .inner-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
 
 @media only screen and (max-width: 1024px) {
     .header-top {
