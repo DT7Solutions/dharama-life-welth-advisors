@@ -131,6 +131,10 @@
   text-align: center;
 }
 
+.journey-line-image-wrapper {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
 
 .view-more:hover {
     color: #ffffff;
@@ -448,7 +452,7 @@ footer.style-three .list-style-two li .icon {
     width: 20px; /* Size of the arrow */
     height: 20px; /* Size of the arrow */
     /* Inline SVG for a clean, scalable double chevron (>>). Color is #001689. */
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23001689' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='13 17 18 12 13 7'%3E%3C/polyline%3E%3Cpolyline points='6 17 11 12 6 7'%3E%3C/polyline%3E%3C/svg%3E");
+    /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23001689' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='13 17 18 12 13 7'%3E%3C/polyline%3E%3Cpolyline points='6 17 11 12 6 7'%3E%3C/polyline%3E%3C/svg%3E"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain; /* Ensures the SVG scales nicely within the width/height */
