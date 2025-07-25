@@ -489,7 +489,7 @@ footer.style-three .list-style-two li .icon {
         border-radius: 0px;
         background: none;
         border: 1px solid #444444;
-        margin-right: -30px;
+        margin-right: -10px;
     }
     .main-slider.style-four .content .color-change {
         font-size: 38px;
@@ -567,7 +567,7 @@ footer.style-three .list-style-two li .icon {
 @media only screen and (max-width: 1140px) {
     .main-header {
         margin-top: 50px !important;
-        margin-left: -24px !important;
+        margin-left: -12px !important;
     }
 
     .services-flex ul {
