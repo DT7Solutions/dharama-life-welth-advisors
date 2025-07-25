@@ -2,49 +2,62 @@
 .header-style-five .header-upper .logo-box {
     margin-top: -44px;
 }
+
 .header-top .inner-container {
     position: relative;
     margin-left: 250px;
     padding-left: 16px;
     background-color: #001658;
 }
+
 .header-top .inner-container:before {
     background-color: #001658;
 }
+
 img {
     height: auto;
 }
+
 .main-header .top-left:before {
     top: -14px;
 }
+
 .main-header .top-left .contact-list {
     padding: 10px 0px;
 }
+
 .main-header .top-left .contact-list li i {
-   margin-right: 6px;
+    margin-right: 6px;
 }
+
 .main-header .top-left:before {
     border-top: 60px solid #001658;
 }
-.main-menu .navigation > li > a {
-    text-transform: none ;
+
+.main-menu .navigation>li>a {
+    text-transform: none;
 }
+
 .main-menu .navigation {
     position: relative;
     margin: 7px;
 }
+
 .btn-style-two {
     margin-top: -6px;
     background-color: #008000;
     font-size: 16px;
 }
-.btn-style-two:hover{
+
+.btn-style-two:hover {
     background-color: #001658;
 }
+
 /* slider */
 .main-slider.style-four .content h1 {
     font-weight: 700;
 }
+
 .main-slider.style-four .content .color-change {
     color: #ffffff;
     font-size: 40px;
@@ -54,7 +67,7 @@ img {
     margin-bottom: 15px;
 }
 
-.main-slider.style-four .content h1{
+.main-slider.style-four .content h1 {
     color: rgb(0, 22, 88);
     font-size: 40px;
     font-weight: 700;
@@ -62,16 +75,19 @@ img {
     padding-bottom: 0px;
     margin-bottom: 15px;
 }
+
 .main-slider.style-four .content .text-guide {
     color: #ffffff;
     margin-bottom: 23px;
 }
+
 .main-slider.style-four .content .title-change {
     color: #ffffff;
     font-weight: 600;
     margin-bottom: 10px;
     font-size: 16px;
 }
+
 .main-slider.style-four .content {
     max-width: 610px;
     padding: 140px 50px 140px;
@@ -87,20 +103,25 @@ img {
     margin-bottom: 90px;
     margin-top: -45px;
 }
+
 .services-block-three .inner-box h6 a {
     color: #010101;
 }
+
 .services-block-three .inner-box .text {
     color: #010101;
     text-align: center;
 }
+
 /* about us section  */
 .sec-title-three h2 {
     font-weight: 500;
 }
+
 .services-block-thirteen .inner-box h5 {
     font-weight: 700;
 }
+
 .services-block-thirteen .inner-box .icon-box {
     width: 100px;
     height: 100px;
@@ -111,6 +132,7 @@ img {
     line-height: 103px;
     margin-bottom: 12px;
 }
+
 /* services  */
 .view-more {
     position: relative;
@@ -119,78 +141,97 @@ img {
     cursor: pointer;
     font-weight: 700;
     text-transform: capitalize;
-	border-radius:50px;
-	padding:11px 31px 11px;
-	box-shadow: inset 0 0 10px #008000;
+    border-radius: 50px;
+    padding: 11px 31px 11px;
+    box-shadow: inset 0 0 10px #008000;
 }
+
 .about-more {
-  display: inline-block;
-  color: #001658;
-  padding: 12px 24px;
-  border-radius: 30px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.3s ease;
+    display: inline-block;
+    color: #001658;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
+
 .business-more {
-  display: inline-block;
-  color: #001658;
-  padding: 12px 24px;
-  border-radius: 30px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  text-align: center;
+    display: inline-block;
+    color: #001658;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-align: center;
 }
+
 .pull-left {
-   margin-top: 8px;
+    margin-top: 8px;
 }
-.call-to-service{
+
+.call-to-service {
     font-size: 24px !important;
 }
+
 .view-more:hover {
     color: #ffffff;
     box-shadow: inset 0 0 10px #ffffff;
 }
+
 .services-block-fourteen .inner-box .text {
     margin-bottom: 20px;
 }
+
 /* why choose us  */
 .feature-section .feature-tabs .tab-btns .tab-btn {
     font-weight: 600;
 }
+
 /* faq section  */
 .sec-title h2 {
     color: #010101;
 }
+
 .accordion-box .block .acc-btn {
     color: #010101;
     font-family: 'Lato', sans-serif;
 }
+
 .accordion-box .block .content p {
     color: #010101;
 }
+
 .sec-title h2 {
     font-weight: 500;
 }
+
 /* statistics */
 .fact-counter.style-three .column .counter-title {
     font-family: 'Lato', sans-serif;
 }
+
 /* blogs */
 .news-block-two.brown .inner-box .lower-content h5 a {
     font-family: 'Lato', sans-serif !important;
 }
- .text-blogs{
+
+.text-blogs {
     margin-top: 15px;
- }
+}
+
 /* blog details  */
 .text-goal ul li,
 .text-power ul li,
 .text-finanacial ul li {
-  list-style-type: disc !important;
-  margin-top: 0 !important;    
-  margin-left: 30px;             
+    list-style-type: disc !important;
+    margin-top: 0 !important;
+    margin-left: 30px;
+}
+
+.new-posts .next-post {
+    margin-top: 6px;
 }
 
 /* business opportunity  */
@@ -202,96 +243,116 @@ img {
     color: #001658;
     margin-top: 25px;
 }
+
 .services-block-two .inner-box .overlay-box .overlay-inner h5 a {
     font-size: 20px;
 }
+
 /* footer section  */
 .main-footer.style-three {
-    background-color:  #001658;
+    background-color: #001658;
 }
+
 .main-footer {
     position: relative;
     padding: 45px 0px 0px;
     background-color: #001658;
 }
+
 footer.style-three .list-style-two li .icon {
-    color: #008000 !important ;
+    color: #008000 !important;
 }
+
 .list-style-two li .icon {
     font-size: 18px;
 }
-.main-footer.style-three .footer-bottom .copyright-column .copyright a{
+
+.main-footer.style-three .footer-bottom .copyright-column .copyright a {
     color: #ffffff;
     font-weight: 700;
 }
-.last-para{
+
+.last-para {
     color: #ffffff;
     margin-top: 15px;
     font-size: 16px;
 }
-.last-para a{
+
+.last-para a {
     color: #ffffff;
-} 
+}
+
 .copyright-column .copyright {
     color: #ffffff;
     margin-top: 18px;
 }
+
 .calendly-badge-widget {
     bottom: 50px !important;
 }
+
 .social-column ul li {
     display: inline-block;
     margin-left: 15px;
 }
+
 .main-footer.style-three .list-style-two li a {
     color: #ffffff;
 }
+
 .logo img {
     background-color: #fff;
     padding: 8.5% 0%;
     border-radius: 12px;
 }
-.map-outer{
+
+.map-outer {
     padding: 0px 45px;
 }
+
 .services-flex {
-  display: flex;
-  gap: 50px; 
-  flex-wrap: wrap;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .services-flex ul {
-  list-style: none;
-  padding: 0;
-  /* margin: 0; */
-  margin-left: -50px;
-  flex: 1;
+    list-style: none;
+    padding: 0;
+    /* margin: 0; */
+    margin-left: -50px;
+    flex: 1;
 }
-.services-redesign{
-      margin-left: -50px;
+
+.services-redesign {
+    margin-left: -50px;
 }
+
 .services-flex ul li {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .services-flex ul li a {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
-.services-more{
+
+.services-more {
     margin-top: -70px;
     padding-left: 40px;
     padding-right: 40px;
 }
+
 .services-more a {
-  color: #001658 !important; 
+    color: #001658 !important;
 }
 
 .services-more a:hover {
-  color: #008000 !important;
+    color: #008000 !important;
 }
-.schedule{
+
+.schedule {
     color: #010101;
 }
 
@@ -302,8 +363,8 @@ footer.style-three .list-style-two li .icon {
     font-size: 20px;
     transition: all 0.3s ease;
 }
-#return-to-top
- {
+
+#return-to-top {
     bottom: 7.5%;
     right: 2.5%;
 }
@@ -326,12 +387,15 @@ footer.style-three .list-style-two li .icon {
     color: #fff;
     animation: jump 1s ease-in alternate infinite;
 }
+
 /* --- Services Section Seven Steps - Final CSS with Specific Blue Arrows --- */
 
 .services-section-seven-steps {
     position: relative;
-    padding: 100px 0; /* Adjust as needed */
-    background-color: #f8f8f8; /* Overall section background */
+    padding: 100px 0;
+    /* Adjust as needed */
+    background-color: #f8f8f8;
+    /* Overall section background */
 }
 
 .services-section-seven-steps .sec-title {
@@ -339,139 +403,195 @@ footer.style-three .list-style-two li .icon {
 }
 
 .steps-timeline-outer {
-    max-width: 1200px; /* Content max width */
+    max-width: 1200px;
+    /* Content max width */
     margin: 0 auto;
-    padding: 0 15px; /* Side padding */
+    padding: 0 15px;
+    /* Side padding */
     position: relative;
 }
 
 .steps-timeline-container {
     display: flex;
-    flex-wrap: wrap; /* Allows steps to wrap to next row */
-    justify-content: center; /* Centers steps if last row is incomplete */
-    gap: 30px; /* Spacing between steps */
+    flex-wrap: wrap;
+    /* Allows steps to wrap to next row */
+    justify-content: center;
+    /* Centers steps if last row is incomplete */
+    gap: 30px;
+    /* Spacing between steps */
     position: relative;
 }
 
 /* Individual Step Card Styling (the "container" for each circle + text block) */
 .timeline-step {
-    position: relative; /* Essential for positioning the ::after arrow */
+    position: relative;
+    /* Essential for positioning the ::after arrow */
     /* Calc for 4 items per row with 30px gap: (100% / 4) - (30px * 3 / 4) = 25% - 22.5px */
     flex: 0 0 calc(25% - 22.5px);
     max-width: calc(25% - 22.5px);
 
-    background-color: transparent; /* No background for the card itself */
-    box-shadow: none; /* No shadow for the card */
-    padding: 0; /* No padding on the outer card */
+    background-color: transparent;
+    /* No background for the card itself */
+    box-shadow: none;
+    /* No shadow for the card */
+    padding: 0;
+    /* No padding on the outer card */
     text-align: center;
-    transition: all 0.3s ease; /* Smooth transition for the entire step, including potential lift effect */
-    z-index: 1; /* Ensure elements are visible */
+    transition: all 0.3s ease;
+    /* Smooth transition for the entire step, including potential lift effect */
+    z-index: 1;
+    /* Ensure elements are visible */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    min-height: auto; /* Let content define height */
-    margin-bottom: 40px; /* Spacing between rows of steps */
+    min-height: auto;
+    /* Let content define height */
+    margin-bottom: 40px;
+    /* Spacing between rows of steps */
 }
 
 /* Main Icon Circle (the large colored circle) */
 .step-icon {
     position: relative;
-    width: 120px; /* Size of the main circle */
-    height: 120px; /* Size of the main circle */
-    background-color: #008000; /* ALL main icon circles are GREEN by default */
-    border-radius: 50%; /* Makes it a circle */
+    width: 120px;
+    /* Size of the main circle */
+    height: 120px;
+    /* Size of the main circle */
+    background-color: #008000;
+    /* ALL main icon circles are GREEN by default */
+    border-radius: 50%;
+    /* Makes it a circle */
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px; /* Space between circle and heading text */
-    border: none; /* No border for this circle */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for the circle */
-    z-index: 2; /* Ensures it's above other elements if any */
-    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+    margin-bottom: 20px;
+    /* Space between circle and heading text */
+    border: none;
+    /* No border for this circle */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for the circle */
+    z-index: 2;
+    /* Ensures it's above other elements if any */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background color change */
 }
 
 /* Hover effect for the main icon circle */
 .step-icon:hover {
-    background-color: #001658; /* Change to DARK BLUE on hover */
+    background-color: #001658;
+    /* Change to DARK BLUE on hover */
 }
 
 /* Icon inside the main circle */
 .step-icon .icon {
-    font-size: 50px; /* Size of the Flaticon icon */
-    color: #ffffff; /* Icon color: WHITE */
+    font-size: 50px;
+    /* Size of the Flaticon icon */
+    color: #ffffff;
+    /* Icon color: WHITE */
     line-height: 1;
 }
 
 /* Number Circle (1, 2, 3, 4...) */
 .step-number {
     position: absolute;
-    top: -10px; /* Position relative to the .step-icon */
-    left: 10px; /* Position relative to the .step-icon */
-    transform: none; /* No additional transform needed */
-    background-color: #001658; /* All number circles have the DARK BLUE background */
-    color: #ffffff; /* Number color: WHITE */
-    width: 30px; /* Size of the number circle */
-    height: 30px; /* Size of the number circle */
-    border-radius: 50%; /* Makes it a circle */
+    top: -10px;
+    /* Position relative to the .step-icon */
+    left: 10px;
+    /* Position relative to the .step-icon */
+    transform: none;
+    /* No additional transform needed */
+    background-color: #001658;
+    /* All number circles have the DARK BLUE background */
+    color: #ffffff;
+    /* Number color: WHITE */
+    width: 30px;
+    /* Size of the number circle */
+    height: 30px;
+    /* Size of the number circle */
+    border-radius: 50%;
+    /* Makes it a circle */
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 14px;
     font-weight: 700;
-    z-index: 4; /* Ensures it's on top of the main icon circle */
-    border: none; /* No border for the number circle */
+    z-index: 4;
+    /* Ensures it's on top of the main icon circle */
+    border: none;
+    /* No border for the number circle */
 }
 
 /* Content (Heading and Text) below the icon circle */
 .timeline-step .step-content {
-    padding: 0 10px; /* Small horizontal padding for text alignment */
+    padding: 0 10px;
+    /* Small horizontal padding for text alignment */
 }
 
 .timeline-step .step-content h6 {
-    font-size: 18px; /* Heading size */
-    margin-bottom: 8px; /* Space between heading and description */
-    font-weight: 700; /* Bolder heading */
-    color: #333; /* Dark text color for heading */
+    font-size: 18px;
+    /* Heading size */
+    margin-bottom: 8px;
+    /* Space between heading and description */
+    font-weight: 700;
+    /* Bolder heading */
+    color: #333;
+    /* Dark text color for heading */
 }
 
 .timeline-step .step-content h6 a {
-    color: inherit; /* Inherit color from h6 */
+    color: inherit;
+    /* Inherit color from h6 */
     text-decoration: none;
 }
 
 .timeline-step .step-content .text {
-    font-size: 16px; /* Description text size */
-    color: #555; /* Slightly darker grey for readability */
+    font-size: 16px;
+    /* Description text size */
+    color: #555;
+    /* Slightly darker grey for readability */
     line-height: 1.5;
-    margin-bottom: 0; /* No margin if no button directly below */
-    flex-grow: 1; /* Allows text to take available space */
+    margin-bottom: 0;
+    /* No margin if no button directly below */
+    flex-grow: 1;
+    /* Allows text to take available space */
     text-align: center;
 }
 
 /* Hide the 'Book Now' link/button if it's not present in the image for most steps */
 .timeline-step .contact-link {
-    display: none; /* By default, hide this link */
+    display: none;
+    /* By default, hide this link */
 }
 
 
 /* --- NEW ARROW STYLES (SVG-based double chevron) --- */
 .timeline-step::after {
-    content: ''; /* Essential for pseudo-elements */
+    content: '';
+    /* Essential for pseudo-elements */
     position: absolute;
-    top: 60px; /* Aligns vertically with the center of the 120px tall .step-icon */
-    right: -20px; /* Adjusts position: will be centered in the 30px gap */
-    width: 20px; /* Size of the arrow */
-    height: 20px; /* Size of the arrow */
+    top: 60px;
+    /* Aligns vertically with the center of the 120px tall .step-icon */
+    right: -20px;
+    /* Adjusts position: will be centered in the 30px gap */
+    width: 20px;
+    /* Size of the arrow */
+    height: 20px;
+    /* Size of the arrow */
     /* Inline SVG for a clean, scalable double chevron (>>). Color is #001689. */
     /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23001689' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='13 17 18 12 13 7'%3E%3C/polyline%3E%3Cpolyline points='6 17 11 12 6 7'%3E%3C/polyline%3E%3C/svg%3E"); */
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain; /* Ensures the SVG scales nicely within the width/height */
-    transform: translateY(-50%); /* Only vertical centering needed */
-    z-index: 0; /* Ensures the arrow is behind the content of the next step */
-    pointer-events: none; /* Prevents the arrow from interfering with mouse events on steps */
-    border: none; /* Ensure no old border styles interfere */
+    background-size: contain;
+    /* Ensures the SVG scales nicely within the width/height */
+    transform: translateY(-50%);
+    /* Only vertical centering needed */
+    z-index: 0;
+    /* Ensures the arrow is behind the content of the next step */
+    pointer-events: none;
+    /* Prevents the arrow from interfering with mouse events on steps */
+    border: none;
+    /* Ensure no old border styles interfere */
 }
 
 /* Hide arrows on the last item of each row and the overall last child */
@@ -480,10 +600,12 @@ footer.style-three .list-style-two li .icon {
 .steps-timeline-container .timeline-step:last-child::after {
     display: none;
 }
+
 @keyframes jump {
     0% {
         transform: translateY(0);
     }
+
     100% {
         transform: translateY(-10px);
     }
@@ -503,44 +625,57 @@ footer.style-three .list-style-two li .icon {
         border: 1px solid #444444;
         margin-right: -10px;
     }
+
     .main-slider.style-four .content .color-change {
         font-size: 38px;
     }
-    .services-flex{
+
+    .services-flex {
         flex-direction: column;
         gap: 0px;
     }
+
     .services-flex ul {
         list-style: none;
         padding: 0;
         margin: 0;
         flex: 1;
     }
-    .services-redesign{
-      margin-left: 0px;
+
+    .services-redesign {
+        margin-left: 0px;
     }
-    
+
     .services-section-six .outer-container:before {
         background: none;
     }
+
     .main-slider.style-four .content {
         margin-left: 1px;
     }
-    .main-menu .navbar-collapse > .navigation {
+
+    .main-menu .navbar-collapse>.navigation {
         margin-left: 31px !important;
     }
+
     .timeline-step {
-        flex: 0 0 100%; /* 1 column */
+        flex: 0 0 100%;
+        /* 1 column */
         max-width: 100%;
-        margin-bottom: 30px; /* Adjust vertical spacing when stacked */
+        margin-bottom: 30px;
+        /* Adjust vertical spacing when stacked */
         /* Center content horizontally on mobile when stacked */
         align-items: center;
     }
+
     .timeline-step .step-content .text {
-        text-align: left; /* Prefer left-align for readability on very narrow mobile screens */
+        text-align: left;
+        /* Prefer left-align for readability on very narrow mobile screens */
     }
+
     .steps-timeline-container .timeline-step::after {
-        display: none; /* Hide all arrows on mobile (vertical stacking) */
+        display: none;
+        /* Hide all arrows on mobile (vertical stacking) */
     }
 }
 
@@ -565,33 +700,42 @@ footer.style-three .list-style-two li .icon {
         margin: 0;
         flex: 1;
     }
+
     .services-redesign {
-      margin-left: 0px;
+        margin-left: 0px;
     }
-    .services-flex{
+
+    .services-flex {
         flex-direction: column;
         gap: 0px;
     }
+
     .services-section-six .outer-container:before {
         background: none;
     }
 }
+
 @media only screen and (max-width: 1140px) {
     .main-header {
         margin-top: 50px !important;
         margin-left: -12px !important;
     }
+
     .logo img {
         background-color: #fff;
         padding: 2.5% 7%;
         border-radius: 12px;
-        }
-    
+    }
+
     img {
         display: inline-block;
         max-width: 100%;
         height: auto;
-        }
+    }
+
+    .map-outer {
+        padding: 0px 18px;
+    }
 
     .services-flex ul {
         list-style: none;
@@ -599,15 +743,25 @@ footer.style-three .list-style-two li .icon {
         margin: 0;
         flex: 1;
     }
+
     .services-redesign {
-      margin-left: 0px;
+        margin-left: 0px;
     }
-    .services-flex{
+
+    .services-flex {
         flex-direction: column;
         gap: 0px;
     }
+
     .services-section-six .outer-container:before {
         background: none;
     }
-}
 
+    .new-posts .next-post {
+        margin-top: 9px;
+    }
+
+    .workflow-section .sec-title {
+        margin-bottom: -3px;
+    }
+}
