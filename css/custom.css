@@ -21,7 +21,7 @@ img {
     padding: 10px 0px;
 }
 .main-header .top-left .contact-list li i {
-   margin-right: 8px;
+   margin-right: 6px;
 }
 .main-header .top-left:before {
     border-top: 60px solid #001658;
@@ -29,8 +29,12 @@ img {
 .main-menu .navigation > li > a {
     text-transform: none ;
 }
+.main-menu .navigation {
+    position: relative;
+    margin: 7px;
+}
 .btn-style-two {
-    margin-top: -10px;
+    margin-top: -6px;
     background-color: #008000;
     font-size: 16px;
 }
@@ -244,7 +248,7 @@ footer.style-three .list-style-two li .icon {
 }
 .logo img {
     background-color: #fff;
-    padding: 6.5% 0%;
+    padding: 8.5% 0%;
     border-radius: 12px;
 }
 .map-outer{
@@ -523,7 +527,7 @@ footer.style-three .list-style-two li .icon {
         margin-left: 1px;
     }
     .main-menu .navbar-collapse > .navigation {
-        margin-left: 46px !important;
+        margin-left: 31px !important;
     }
     .timeline-step {
         flex: 0 0 100%; /* 1 column */
@@ -577,6 +581,17 @@ footer.style-three .list-style-two li .icon {
         margin-top: 50px !important;
         margin-left: -12px !important;
     }
+    .logo img {
+        background-color: #fff;
+        padding: 2.5% 7%;
+        border-radius: 12px;
+        }
+    
+    img {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+        }
 
     .services-flex ul {
         list-style: none;
