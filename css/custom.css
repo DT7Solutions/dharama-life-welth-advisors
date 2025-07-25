@@ -1,17 +1,25 @@
 /* header  */
 .header-style-five .header-upper .logo-box {
-    margin-top: -52px;
+    margin-top: -44px;
 }
 .header-top .inner-container {
     position: relative;
-    margin-left: 285px;
+    margin-left: 250px;
     padding-left: 16px;
     background-color: #001658;
 }
 .header-top .inner-container:before {
     background-color: #001658;
 }
-
+img {
+    height: auto;
+}
+.main-header .top-left:before {
+    top: -14px;
+}
+.main-header .top-left .contact-list {
+    padding: 10px 0px;
+}
 .main-header .top-left .contact-list li i {
    margin-right: 8px;
 }
@@ -236,7 +244,7 @@ footer.style-three .list-style-two li .icon {
 }
 .logo img {
     background-color: #fff;
-    padding: 2.5% 0%;
+    padding: 6.5% 0%;
     border-radius: 12px;
 }
 .map-outer{
