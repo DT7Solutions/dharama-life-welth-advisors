@@ -387,6 +387,22 @@ footer.style-three .list-style-two li .icon {
     color: #fff;
     animation: jump 1s ease-in alternate infinite;
 }
+/* contact us page  */
+.contact-form input[type="tel"]{
+    display: block;
+    width: 100%;
+    line-height: 23px;
+    height: 45px;
+    font-size: 16px;
+    padding: 10px 24px;
+    background: #eef1f5;
+    color: #000000;
+    border: 1px solid #eef1f5;
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
 
 /* --- Services Section Seven Steps - Final CSS with Specific Blue Arrows --- */
 
