@@ -403,7 +403,17 @@ footer.style-three .list-style-two li .icon {
     -ms-transition: all 500ms ease;
     -o-transition: all 500ms ease;
 }
-
+.business-opportunity-content{
+    margin-top: -25px;
+}
+.business-opportunity-section,
+.business-opportunity-section li {
+    list-style: disc !important;
+    margin-left:10px !important ;
+}
+.services-section-two {
+    padding: 45px 0px 80px;
+}
 @media only screen and (max-width: 1140px) {
     .services-block-six .inner-box {
         display: flex;
