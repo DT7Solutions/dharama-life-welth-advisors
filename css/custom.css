@@ -132,7 +132,23 @@ img {
     line-height: 103px;
     margin-bottom: 12px;
 }
-
+.business-opportunity-content{
+    margin-top: -25px;
+}
+.business-opportunity-section,
+.business-opportunity-section li {
+    list-style: disc !important;
+    margin-left:10px !important ;
+}
+.services-section-two {
+    padding: 45px 0px 80px;
+}
+.consultation-section{
+    padding: 50px 25px;
+}
+.news-section-two.alternate {
+    padding-bottom: 40px;
+}
 /* services  */
 .view-more {
     position: relative;
@@ -403,17 +419,6 @@ footer.style-three .list-style-two li .icon {
     -ms-transition: all 500ms ease;
     -o-transition: all 500ms ease;
 }
-.business-opportunity-content{
-    margin-top: -25px;
-}
-.business-opportunity-section,
-.business-opportunity-section li {
-    list-style: disc !important;
-    margin-left:10px !important ;
-}
-.services-section-two {
-    padding: 45px 0px 80px;
-}
 
 @media only screen and (max-width: 1024px) {
     .header-top {
@@ -502,5 +507,10 @@ footer.style-three .list-style-two li .icon {
         max-width: 610px;
         padding: 140px 50px 140px;
         margin-left: -8px;
+    }
+    
+    .btn-style-five {
+        font-size: 15px;
+        padding: 11px 20px 11px;
     }
 }
