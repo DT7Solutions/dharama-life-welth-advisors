@@ -414,15 +414,6 @@ footer.style-three .list-style-two li .icon {
 .services-section-two {
     padding: 45px 0px 80px;
 }
-@media only screen and (max-width: 1140px) {
-    .services-block-six .inner-box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-}
 
 @media only screen and (max-width: 1024px) {
     .header-top {
@@ -498,5 +489,18 @@ footer.style-three .list-style-two li .icon {
 
     .workflow-section .sec-title {
         margin-bottom: -3px;
+    }
+    .services-block-six .inner-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .main-slider.style-four .content {
+        max-width: 610px;
+        padding: 140px 50px 140px;
+        margin-left: -8px;
     }
 }
